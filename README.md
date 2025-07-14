@@ -24,7 +24,7 @@ To get started with the project locally, follow these steps in your integrated t
 
 ### 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/gemini-clone.git
+git clone https://github.com/adityasahu1109/gemini-clone.git
 cd gemini-clone
 ```
 ### 2. Install dependencies:
