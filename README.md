@@ -37,7 +37,7 @@ npm install
 - Obtain an API key from Google AI Studio.
 - Create a `.env` file in the `backend` directory and add your API key:
 ```bash
-REACT_APP_GEMINI_API_KEY=your-api-key-here
+VITE_API_KEY=your-api-key-here
 ```
 
 ### 4. Start the website:
