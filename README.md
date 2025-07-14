@@ -1,12 +1,71 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Gemini Clone Project
 
-Currently, two official plugins are available:
+A React.js-based frontend that mimics the functionality of Gemini, integrated with an AI chatbot backend powered by an API key from Google AI Studio.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Project Overview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+This project is a Gemini clone built using React.js for the frontend and an AI-powered backend that interacts with the Gemini API. The project replicates the core features of Gemini, offering a chat-based interface that allows users to interact with an AI chatbot. The backend is connected via an API key generated from Google AI Studio, enabling the chatbot-like functionality.
+
+
+## Technologies Used
+
+ - Frontend: React.js
+ - Backend: Node.js (with Google AI Studio API integration)
+ - AI Model: Google AI Studio API
+ - API: Gemini API (for backend communication)
+ - Others: Axios (for API requests), CSS/SCSS for styling
+
+
+## Installation
+
+To get started with the project locally, follow these steps in your integrated terminal:
+
+### 1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/gemini-clone.git
+cd gemini-clone
+```
+### 2. Install dependencies:
+```bash
+npm install
+```
+
+### 3. Set up backend:
+
+- Obtain an API key from Google AI Studio.
+- Create a `.env` file in the `backend` directory and add your API key:
+```bash
+REACT_APP_GEMINI_API_KEY=your-api-key-here
+```
+
+### 4. Start the website:
+```bash
+npm run dev
+```
+Now, your application should be running at http://localhost:3000
+or any other place depending on your system.## Usage
+
+ - Open the app in your browser.
+ - You will be presented with a chatbot interface.
+ - Type your queries, and the AI chatbot will respond, simulating the Gemini chatbot-like functionality.
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+ - Fork the repository.
+ - Create a new branch (git checkout -b feature/your-feature).
+ - Commit your changes (git commit -am 'Add new feature').
+ - Push to the branch (git push origin feature/your-feature).
+ - Create a new Pull Request.
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://choosealicense.com/licenses/mit/)
+
+## Acknowledgements
+
+ - Gemini API for powering the chatbot.
+ - Google AI Studio for the backend integration.
+ - React.js for building the frontend interface.
